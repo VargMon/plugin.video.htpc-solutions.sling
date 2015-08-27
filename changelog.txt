@@ -1,0 +1,35 @@
+v0.2.0
+- Ported to shared base code
+
+v0.1.2
+- Added Resume From Sleep
+- Add Video Signal detection
+- Disbale Player Component Reszing
+- Added Quick Launch options
+- Fixed crash on Mouse Click
+
+v0.1.1
+- Added On Screen Error Message
+
+v0.1.0
+- Initial Client Beta Release
+
+v0.0.4
+- Added support for muliple Sling Boxes
+
+v0.0.3
+- Add settings control for client + plugin via xbmc
+- Added support for caching configuration files
+- Implemented Support for Downloading Sling ActiveX Control
+- Implemented advance debugging of both client + pluging
+- Seperated plugin function to individual class with advance inherintence
+- Fixed encoding bug
+- Fixed channel selection bug
+- Fixed streaming timer bug
+
+v0.0.2
+- Added plugin configuration settings
+- Added support for dynamic channel icons
+
+v0.0.1
+- Proof of Concept

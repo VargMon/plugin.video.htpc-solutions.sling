@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+		<setting label="Credentials" type="lsep"/>
+		<setting id="credentials.username" type="text" label="Username" default="" />
+		<setting id="credentials.password" type="text" label="Password" default="" option="hidden"  />
+	</category>
+	<category label="Live">
+		<setting label="Aspect" type="lsep"/>
+		<setting id="aspect.ration" type="enum" label="Aspect" values="Auto|16x9" default="0" />
+		<setting label="Local Area Network" type="lsep"/>
+		<setting id="lan.bitrate" type="enum" label="Bit Rate" values="Auto|Minimum" default="0" />
+		<setting id="lan.quality" type="enum" label="Quality" values="Auto|Minimum|Good|Better|Best|BestHD" default="0" />
+		<setting id="lan.resolution" type="enum" label="Resolution" values="320x240|160x120|352x240|76x120|640x480" default="0" />
+		<setting label="Internet" type="lsep"/>
+		<setting id="wan.bitrate" type="enum" label="Bit Rate" values="Auto|Minimum" default="0" />
+		<setting id="wan.quality" type="enum" label="Quality" values="Auto|Minimum|Good|Better|Best|BestHD" default="0" />
+		<setting id="wan.resolution" type="enum" label="Resolution" values="320x240|160x120|352x240|76x120|640x480" default="0" />
+		<setting label="TV Guide" type="lsep"/>
+		<setting id="tvguide.integrate" type="action" label="Integrate with TVGuide" option="close" action="RunPlugin(plugin://plugin.video.htpc-solutions.sling/?mode=live&amp;action=integrate)"/>
+	</category>
+	<category label="Advanced">
+		<setting label="Cache" type="lsep"/>
+		<setting id="cache.period" type="slider" label="Period" option="int" default="7" range="1,1,14"/>
+		<setting id="cache.update" type="action" label="Update" action="RunPlugin(plugin://plugin.video.htpc-solutions.sling/?mode=cache&amp;action=update)"/>
+		<setting id="cache.delete" type="action" label="Delete" action="RunPlugin(plugin://plugin.video.htpc-solutions.sling/?mode=cache&amp;action=delete)"/>
+		<setting label="Debug" type="lsep"/>
+		<setting id="debug.enabled" type="bool" label="Enabled" default="false"/>
+		<setting label="Service" type="lsep"/>
+		<setting id="service.enabled" type="bool" label="Enabled" default="true"/>
+	</category>
+</settings>
